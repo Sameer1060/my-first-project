@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+   .sam{
+     position: absolute;
+     center:10px;
+     left:620px;
+   }
+  
+  .container {
+    background-image: url("https://miro.medium.com/max/15000/1*WO-ndaPgfggEDtOEXVjS7A.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+  }
+  
+  .top {
+    display: flex;
+    overflow-y: hidden;
+  }
+  
+  .top > img {
+    margin: 8px;
+    transition: transform 0.5s;
+  }
+  
+  .top > img:hover {
+    transform: scale(1.2);
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
